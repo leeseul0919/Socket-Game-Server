@@ -12,7 +12,7 @@ namespace ConsoleApp5
         static async Task Main(string[] args)
         {
             NetworkService server = new NetworkService();
-            server.start("192.168.0.189", 7979, 100); // Start listening
+            server.start("IP주소", 7979, 100); // Start listening
 
             while (true)
             {
