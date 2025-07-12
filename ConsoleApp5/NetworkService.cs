@@ -79,7 +79,7 @@ namespace ConsoleApp5
         private Minigame_DB_Process minigameManager;
         private Friend_DB_Process friendManager;
         //private Friend friendManager;
-        private const string ConnectionString = "Server=152.69.235.49;Port=3306;Database=Game_DB;Uid=user11;Pwd=Gameuser1!";
+        private const string ConnectionString = "Server=DB_IP;Port=3306;Database=DB_Name;Uid=ID;Pwd=PW";
         public string getConnectionString()
         {
             return ConnectionString;
